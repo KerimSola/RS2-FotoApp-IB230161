@@ -1,0 +1,91 @@
+# ===== Tajne / konfiguracija =====
+.env
+*.env
+!.env.example
+
+# ===== .NET / Visual Studio =====
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.cache
+*.pdb
+TestResults/
+[Tt]est[Rr]esult*/
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+appsettings.Development.json
+launchSettings.local.json
+
+# ===== JetBrains Rider / VS Code =====
+.idea/
+*.sln.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== Flutter / Dart =====
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+*.iml
+.metadata
+
+# Flutter - Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.jks
+*.keystore
+key.properties
+
+# Flutter - iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+xcuserdata/
+
+# Flutter - Windows / Linux desktop
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# ===== Docker / baza =====
+*.mdf
+*.ldf
+mssql-data/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
